@@ -13,4 +13,123 @@ a, a:hover {
   text-decoration: none;
 }
 
-/* common css end  *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* common css end  */
+/* Header section css start  */
+.header #nav {
+  margin: 10px 0;
+  margin-left: -130px;
+}
+.header #nav .logo {
+  margin-right: 40px;
+}
+.header #nav #navbar ul li a {
+  font-size: 17px;
+  color: #2e2d2e;
+  text-transform: uppercase;
+  margin-right: 35px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.header #nav #navbar ul li a:hover {
+  color: #1b598d;
+}
+.header .header_content {
+  margin-top: 120px;
+}
+.header .header_content h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #2e2d2e;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.header .header_content p {
+  font-size: 15px;
+  color: #2e2d2e;
+  margin-bottom: 50px;
+}
+.header .header_content .header_btn a {
+  padding: 23px 45px;
+  font-size: 17px;
+  color: #2e2d2e;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 17px;
+  border: 3px solid #49afff;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.header .header_content .header_btn a:hover {
+  border: 3px solid #ff5957;
+}
+.header .header_img img {
+  margin-top: -98px;
+}
+
+/* Header section css end  */
+/* Services section css start  */
+#service {
+  margin-top: 150px;
+}
+#service .service_text {
+  margin-bottom: 146px;
+}
+#service .service_text span {
+  display: inline-block;
+  width: 66px;
+  height: 8px;
+  border-radius: 5px;
+  background: #ff5a58;
+  margin-bottom: 10px;
+}
+#service .service_text h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #282c47;
+  margin-bottom: 38px;
+}
+#service .service_text p {
+  font-size: 17px;
+  color: #060606;
+  margin-bottom: 50px;
+}
+#service .service_text a {
+  padding: 20px 50px;
+  font-size: 17px;
+  color: #49afff;
+  border: 3px solid #4aafff;
+  border-radius: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#service .service_text a:hover {
+  border: 3px solid #ff5957;
+  color: #ff5957;
+}
+#service .title span {
+  display: inline-block;
+  width: 66px;
+  height: 8px;
+  border-radius: 5px;
+  background: #ff5a58;
+  margin-bottom: 10px;
+}
+#service .title h3 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #060606;
+}
+#service .title p {
+  font-size: 15px;
+  color: #060606;
+  margin-bottom: 60px;
+}
+
+/* Services section css end  *//*# sourceMappingURL=style.css.map */

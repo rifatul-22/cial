@@ -10,4 +10,131 @@ ol,ul{
 a,a:hover{
     text-decoration: none;
 }
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+}
 /* common css end  */
+/* Header section css start  */
+.header{
+    #nav{
+        margin: 10px 0;
+        margin-left: -130px;
+        .logo{
+            margin-right: 40px;
+        }
+        #navbar{
+            ul{
+                li{
+                    a{
+                        font-size: 17px;
+                        color: #2e2d2e;
+                        text-transform: uppercase;
+                        margin-right: 35px;
+                        transition: all 0.3s ease;
+                        &:hover{
+                            color: #1b598d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header_content{
+        margin-top: 120px;
+        h1{
+            font-size: 60px;
+            font-weight: 700;
+            color: #2e2d2e;
+            text-transform: uppercase;
+            margin-bottom: 50px;
+        }
+        p{
+            font-size: 15px;
+            color: #2e2d2e;
+            margin-bottom: 50px;
+        }
+        .header_btn{
+            a{
+                padding: 23px 45px;
+                font-size: 17px;
+                color: #2e2d2e;
+                font-weight: 700;
+                text-transform: uppercase;
+                margin-right: 17px;
+                border: 3px solid #49afff;
+                border-radius: 50px;
+                transition: all 0.3s;
+                &:hover{
+                    border: 3px solid #ff5957;
+                }
+            }
+        }
+    }
+    .header_img{
+        img{
+            margin-top: -98px;
+        }
+    }
+}
+/* Header section css end  */
+/* Services section css start  */
+#service{
+    margin-top: 150px;
+    .service_text{
+        margin-bottom: 146px;
+        span{
+            display: inline-block;
+            width: 66px;
+            height: 8px;
+            border-radius: 5px;
+            background: #ff5a58;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-size: 35px;
+            font-weight: 600;
+            color: #282c47;
+            margin-bottom: 38px;
+        }
+        p{
+            font-size: 17px;
+            color: #060606;
+            margin-bottom: 50px;
+        }
+        a{
+            padding: 20px 50px;
+            font-size: 17px;
+            color: #49afff;
+            border: 3px solid #4aafff;
+            border-radius: 50px;
+            transition: all 0.3s;
+            &:hover{
+                border: 3px solid #ff5957;
+                color: #ff5957;
+            }
+        }
+    }
+    .title{
+        span{
+            display: inline-block;
+            width: 66px;
+            height: 8px;
+            border-radius: 5px;
+            background: #ff5a58;
+            margin-bottom: 10px;
+        }
+        h3{
+            font-size: 35px;
+            font-weight: 600;
+            color: #060606;
+        }
+        p{
+            font-size: 15px;
+            color: #060606;
+            margin-bottom: 60px;
+        }
+    }
+}
+/* Services section css end  */
